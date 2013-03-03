@@ -68,6 +68,7 @@
 		6CAFF56B16D80311005CA0E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CAFF56D16D80311005CA0E7 /* Reading_ListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reading_ListTests.h; sourceTree = "<group>"; };
 		6CAFF56E16D80311005CA0E7 /* Reading_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reading_ListTests.m; sourceTree = "<group>"; };
+		6CC62E0016E1BBD1009C1EE8 /* Reading List.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Reading List.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 		6CAFF53916D80310005CA0E7 /* Reading List */ = {
 			isa = PBXGroup;
 			children = (
+				6CC62E0016E1BBD1009C1EE8 /* Reading List.entitlements */,
 				6CAFF54216D80311005CA0E7 /* pfAppDelegate.h */,
 				6CAFF54316D80311005CA0E7 /* pfAppDelegate.m */,
 				6CAFF54B16D80311005CA0E7 /* MainStoryboard_iPhone.storyboard */,
@@ -415,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reading List/Reading List-Prefix.pch";
 				INFOPLIST_FILE = "Reading List/Reading List-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -426,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reading List/Reading List-Prefix.pch";
 				INFOPLIST_FILE = "Reading List/Reading List-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -484,6 +488,7 @@
 				6CAFF57416D80311005CA0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CAFF57516D80311005CA0E7 /* Build configuration list for PBXNativeTarget "Reading ListTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				6CAFF57716D80311005CA0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
